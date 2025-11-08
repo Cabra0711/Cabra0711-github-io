@@ -1,9 +1,43 @@
-.nav {
-    text-align: center;
-    margin: 40px;
-    color: rgb(212, 43, 43);
+.navegacion1 {
+        text-align: center;
+            margin: 20px;
+                color: rgb(255, 255, 255);
 }
 
 .nav2 {
-    margin: 40px;
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    padding:10px;
+    justify-content: space-evenly;
+    font-size: 100%;
+}
+
+.nav2 a { 
+    color: white;
+    text-decoration: none;
+
+}
+.nav3 {
+    color: wheat;
+    text-align: center;
+    font-size: 90%;
+}
+
+.projectos a{ 
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+.seccion1{
+    height: 85vh;
+    box-shadow: 0 0 30px 15px rgba(52 , 152, 219, 0.7);
+    border-radius: 50px;
+    align-items: center;
+    background-color: rgba(52, 152, 219, 0.7);
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+
 }
