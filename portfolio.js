@@ -13,13 +13,13 @@ const proyectosRepo = {
         id: i + 1,
         titulo: `Actividad Moodle #${i + 1}`,
         desc: "Entrega técnica realizada para la plataforma Moodle de Riwi.",
-        link: "https://github.com/Cabra0711" // <-- Aquí pones el link real
+        link: "https://github.com/Cabra0711" 
     })),
     robin: Array.from({ length: 10 }, (_, i) => ({
         id: i + 1,
         titulo: `Reto Robin #${i + 1}`,
         desc: "Desafío de lógica y algoritmos resuelto en la plataforma Robin.",
-        link: "https://github.com/Cabra0711" // <-- Aquí pones el link real
+        link: "https://github.com/Cabra0711"
     }))
 };
 
