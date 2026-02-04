@@ -9,18 +9,94 @@ let particlesArray = [];
 let isDarkMode = true;
 
 const proyectosRepo = {
-    moodle: Array.from({ length: 10 }, (_, i) => ({
-        id: i + 1,
-        titulo: `Actividad Moodle #${i + 1}`,
-        desc: "Entrega técnica realizada para la plataforma Moodle de Riwi.",
-        link: "https://github.com/Cabra0711" 
-    })),
-    robin: Array.from({ length: 10 }, (_, i) => ({
-        id: i + 1,
-        titulo: `Reto Robin #${i + 1}`,
-        desc: "Desafío de lógica y algoritmos resuelto en la plataforma Robin.",
-        link: "https://github.com/Cabra0711"
-    }))
+    robin: [
+        {
+            id: 1,
+            titulo: "Python Actividades 1",
+            desc: "Ejercicios iniciales de lógica y sintaxis en Python.",
+            link: "https://github.com/Cabra0711/M1_python_actividades_1"
+        },
+        {
+            id: 2,
+            titulo: "Python Actividad 5",
+            desc: "Resolución de problemas intermedios de programación.",
+            link: "https://github.com/Cabra0711/M1_python_actividad_5"
+        },
+        {
+            id: 3,
+            titulo: "Mi Hoja de Vida",
+            desc: "Repositorio principal de mi curriculum vitae.",
+            link: "https://github.com/Cabra0711/Cabra-Hoja-de-vida/tree/main"
+        },
+        {
+            id: 4,
+            titulo: "Python Semanas 2",
+            desc: "Actividades avanzadas de la segunda semana de Python.",
+            link: "https://github.com/Cabra0711/python_activities_week_2"
+        },
+        {
+            id: 5,
+            titulo: "Moodle HTML/CSS W1",
+            desc: "Página estática realizada para la semana 1 de Riwi.",
+            link: "https://cabra0711.github.io/M2_HTML-Y-CSS_MOODLE_week_1/"
+        },
+        {
+            id: 6,
+            titulo: "Login HTML/CSS",
+            desc: "Interfaz de inicio de sesión con validaciones visuales.",
+            link: "https://cabra0711.github.io/M2_HTML-Y-CSS_login_week_1/"
+        },
+        {
+            id: 7,
+            titulo: "Proyecto Eventos",
+            desc: "Gestión de eventos desarrollada en Git.",
+            link: "https://github.com/Cabra0711/proyecto-eventos"
+        },
+        {
+            id: 8,
+            titulo: "Java Projects",
+            desc: "Repositorio de prácticas de programación en Java.",
+            link: "https://github.com/Cabra0711/java"
+        },
+        {
+            id: 9,
+            titulo: "JavaScript Actividad",
+            desc: "Lógica de programación y manipulación del DOM.",
+            link: "https://github.com/Cabra0711/actividad_js"
+        },
+        {
+            id: 10,
+            titulo: "Simulacro Riwi",
+            desc: "Preparación técnica para evaluaciones de Riwi.",
+            link: "https://github.com/Cabra0711/simulacrio_riwi"
+        }
+    ],
+    moodle: [
+        {
+            id: 1,
+            titulo: "Python Moodle W1",
+            desc: "Entregables de la primera semana de Python.",
+            link: "https://github.com/Cabra0711/M1_python_moodle_week_1"
+        },
+        {
+            id: 2,
+            titulo: "Python Moodle W2",
+            desc: "Ejercicios técnicos de la segunda semana.",
+            link: "https://github.com/Cabra0711/M1_python_moodle_week_2"
+        },
+        {
+            id: 3,
+            titulo: "Python Moodle 3",
+            desc: "Consolidación de conocimientos en Python.",
+            link: "https://github.com/Cabra0711/M1_python_moodle_3"
+        },
+        {
+            id: 4,
+            titulo: "HTML/CSS Moodle W1",
+            desc: "Despliegue de actividades de maquetación web.",
+            link: "https://cabra0711.github.io/M2_HTML-Y-CSS_MOODLE_week_1/"
+        }
+    ]
 };
 
 
