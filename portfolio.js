@@ -25,7 +25,7 @@ const proyectosRepo = {
         { id: 1, titulo: "Python Moodle W1", desc: "Sintaxis básica.", link: "https://github.com/Cabra0711/M1_python_moodle_week_1" },
         { id: 2, titulo: "Python Moodle W2", desc: "Estructuras de datos.", link: "https://github.com/Cabra0711/M1_python_moodle_week_2" },
         { id: 3, titulo: "Python Moodle 3", desc: "Consolidación Python.", link: "https://github.com/Cabra0711/M1_python_moodle_3" },
-        { id: 4, titulo: "HTML/CSS Moodle", desc: "Despliegue GitHub Pages.", link: "https://cabra0711.github.io/M2_HTML-Y-CSS_MOODLE_week_1/" }
+        { id: 4, titulo: "HTML/CSS Moodle WEEK 1,2,3", desc: "Despliegue GitHub Pages.", link: "https://cabra0711.github.io/M2_HTML-Y-CSS_MOODLE_week_1/" }
     ]
 };
 
