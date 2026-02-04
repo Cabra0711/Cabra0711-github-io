@@ -1,105 +1,77 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="es">
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PERSONAL PORTFOLIO</title>
+    <title>JUAN CABRERA | PORTFOLIO</title>
     <link rel="stylesheet" href="portfolio.css" />
     <script src="portfolio.js" defer></script>
-    <link
-      href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="https://cdn.boxicons.com/3.0.6/fonts/brands/boxicons-brands.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
     <div id="black-hole-cursor"></div>
-    <canvas id="background"> </canvas>
+    <canvas id="background"></canvas>
+    
     <nav class="navegacion">
-      <div class="name">
-        <h1>JUAN<span>CABRERA</span></h1>
-      </div>
-      <div>
-        <ul class="nav-buttons">
-          <li>
-            <button id="btnTema"><i class="bxr bx-moon-stars"></i></button>
-          </li>
-          <li><a href="#inicio">INICIO</a></li>
-          <li><a href="#habilidades-section">HABILIDADES</a></li>
-          <li><a href="#proyectos">PROJECTOS</a></li>
-        </ul>
-      </div>
+        <div class="name">
+            <h1>JUAN<span>CABRERA</span></h1>
+        </div>
+        <div>
+            <ul class="nav-buttons">
+                <li>
+                    <button id="btnTema"><i class="bx bx-moon"></i></button>
+                </li>
+                <li><a href="#inicio">INICIO</a></li>
+                <li><a href="#habilidades-section">HABILIDADES</a></li>
+                <li><a href="#proyectos">PROYECTOS</a></li>
+            </ul>
+        </div>
     </nav>
+
     <main>
-      <div class="description">
-        <h1>HOLA SOY, <span>JUAN ESTEBAN CABRERA</span></h1>
-        <h2>Desarrollador Web bilingue Fullstack en progreso...</h2>
-        <p>
-          Estudiante de Riwi actualmente interesado en aprender nuevos lenguajes
-          de programacion y enfrentarme a nuevos retos
-        </p>
-        <div class="icons">
-          <div class="icon-git">
-            <a href="https://github.com/Cabra0711"
-              ><i class="bxl bx-github"></i
-            ></a>
-          </div>
-          <div class="icon-linkedin">
-            <a href=""><i class="bxl bx-linkedin"></i></a>
-          </div>
-        </div>
-      </div>
-      <section id="habilidades-section" class="habilidades">
-        <h1 class="skills-title">Habilidades</h1>
-        <p class="skills-quote">"EN PROGRESO...."</p>
-
-        <div class="skills-container">
-          <div class="skill-card">
-            <i class="bxl bx-python" style="color: #3776ab"></i>
-            <h3>Python</h3>
-          </div>
-          <div class="skill-card">
-            <i class="bxl bx-javascript" style="color: #f7df1e"></i>
-            <h3>JavaScript</h3>
-          </div>
-          <div class="skill-card">
-            <i class="bxl bx-html5" style="color: #e34f26"></i>
-            <h3>HTML5</h3>
-          </div>
-          <div class="skill-card">
-            <i class="bxl bx-css3" style="color: #1572b6"></i>
-            <h3>CSS3</h3>
-          </div>
-        </div>
-      </section>
-      <section
-        id="proyectos"
-        class="proyectos-section"
-        aria-labelledby="proyectos-title"
-      >
-        <header class="proyectos-header">
-          <h2 id="proyectos-title" class="skills-title">Proyectos</h2>
-          <blockquote class="skills-quote">
-            <p>"Proyectos realizados durante el entrenamiento de Riwi."</p>
-          </blockquote>
-        </header>
-
-          <nav class="proyectos-filtros">
-            <div class="filter-wrapper">
-              <button class="filter-btn active" data-category="moodle">
-                Actividades Moodle
-              </button>
-              <button class="filter-btn" data-category="robin">
-                Actividades Robin
-              </button>
+        <section id="inicio" class="description">
+            <h1>HOLA SOY, <span>JUAN ESTEBAN CABRERA</span></h1>
+            <h2>Desarrollador Web bilingüe Fullstack en progreso...</h2>
+            <p>Estudiante de Riwi actualmente interesado en aprender nuevos lenguajes de programación.</p>
+            <div class="icons">
+                <div class="icon-git">
+                    <a href="https://github.com/Cabra0711" target="_blank"><i class="bxl bx-github"></i></a>
+                </div>
+                <div class="icon-linkedin">
+                    <a href="#" target="_blank"><i class="bxl bx-linkedin"></i></a>
+                </div>
             </div>
-          </nav>
-          
-          <div id="proyectos-grid" class="proyectos-grid"></div>
-      </section>
+        </section>
+
+        <section id="habilidades-section" class="habilidades">
+            <h1 class="skills-title">Habilidades</h1>
+            <p class="skills-quote">"EN PROGRESO...."</p>
+            <div class="skills-container">
+                <div class="skill-card"><i class="bxl bx-python" style="color: #3776ab"></i><h3>Python</h3></div>
+                <div class="skill-card"><i class="bxl bx-javascript" style="color: #f7df1e"></i><h3>JavaScript</h3></div>
+                <div class="skill-card"><i class="bxl bx-html5" style="color: #e34f26"></i><h3>HTML5</h3></div>
+                <div class="skill-card"><i class="bxl bx-css3" style="color: #1572b6"></i><h3>CSS3</h3></div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="proyectos-section">
+            <header class="proyectos-header">
+                <h2 class="skills-title">Proyectos</h2>
+                <blockquote class="skills-quote">
+                    <p>"Proyectos realizados durante el entrenamiento de Riwi."</p>
+                </blockquote>
+            </header>
+
+            <nav class="proyectos-filtros">
+                <div class="filter-wrapper">
+                    <button class="filter-btn active" data-category="moodle">Actividades Moodle</button>
+                    <button class="filter-btn" data-category="robin">Actividades Robin</button>
+                </div>
+            </nav>
+
+            <div id="proyectos-grid" class="proyectos-grid">
+                </div>
+        </section>
     </main>
-  </body>
+</body>
 </html>
